@@ -33,7 +33,7 @@ export default function Home() {
           <ul>
           {
             LINKS.map((link) =>{
-              return <li>
+              return <li key={link.displayName}>
                 <Link 
                 className={styles.navlink}
                 href={link.path}>{link.displayName}</Link>

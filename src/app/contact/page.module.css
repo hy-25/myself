@@ -1,0 +1,50 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex :1;
+}
+
+.contactwrapper {
+    width: 30%;
+    /* border-left: 3px solid #ccc; */
+    padding: 0px 20px;
+}
+
+.contactwrapper ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex-wrap: wrap;
+    text-wrap: wrap;
+}
+
+.contactwrapper ul a {
+    text-decoration: none;
+    font-size: 24px;
+    flex-wrap: wrap;
+    text-wrap: wrap;
+    color: white;
+}
+
+.contactstrip {
+    display: flex;
+    flex-direction: row; 
+    align-items: center;  
+    transition: 0.3s;
+}
+
+.image {
+    width: 24px;
+    height: 24px;
+    margin-right: 20px;
+
+}
+.contactwrapper ul a:hover {
+    color: #61dafb;
+    cursor: pointer;
+    transition: 0.3s;
+    transform: scale(1.05);
+    text-decoration-line: underline;
+}

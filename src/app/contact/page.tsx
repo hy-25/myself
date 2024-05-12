@@ -51,7 +51,9 @@ export default function ContactPage() {
         <div className={styles.contactwrapper}>
            <ul>
            {INFO_LIST.map((item,index) =>{
-            return <div className={styles.contactstrip}>
+            return <div className={styles.contactstrip}
+            key={index}
+            >
             <img className={styles.image} src={item.iconURl} alt="Github" />
             <a 
             target="_blank"

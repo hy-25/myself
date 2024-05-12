@@ -42,14 +42,15 @@
 
 
 * {
-  box-sizing: border-box;
   padding: 0;
   margin: 0;
-  /* height: 100vh; */
 }
 
 html,
 body {
 background-color: #161513;
 color: #fff;
+display: flex;
+height: 100vh;
+flex-direction: column;
 }

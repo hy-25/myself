@@ -1,0 +1,37 @@
+.root {
+    display: flex;
+    flex-direction: column;
+    flex : 1;
+    padding:  20%;
+
+}
+
+.header {
+    font-size: 48px;
+    letter-spacing: 3px;
+    font-weight: 400;    
+}
+
+.subheader {
+    margin-top: 36px;
+    font-size: 16px;
+    letter-spacing: 2px;
+    font-weight: 300;
+}
+
+.backhome {
+    margin-top: 36px;
+    font-size: 16px;
+    letter-spacing: 2px;
+    font-weight: 300;
+    text-decoration: none;
+    color: #61dafb;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.backhome:hover {
+    color: #fff;
+    text-decoration: underline;
+    transform: translate(0px , 3px);
+}

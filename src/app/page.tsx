@@ -7,7 +7,7 @@ const RESUME_LINK = "https://drive.google.com/file/d/1o91Ac3gCZ6N9oC-3Gk1CcOEy3g
 const LINKS = [
   {
     displayName : "About me",
-    path : "/about-me"
+    path : "/contact"
   },
   {
     displayName : "Resume",
